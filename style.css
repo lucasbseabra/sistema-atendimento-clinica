@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #71b8f1;
+}
+
+#cabecalho {
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    padding:30px 50px;
+
+}
+
+#cabecalho h1 {
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-size: 56px;
+    display: flex;
+}
+
+#cabecalho h2 {
+     margin-bottom: 5px;
+     margin-top: 0;
+    font-size: 32px;
+    font-weight: normal;
+    display: flex;
+
+}
+
+#painelSenha{
+     margin-left: auto;
+    width:500px;
+    margin:40px auto;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.2);
+    text-align:center;
+    padding:25px;
+}
+
+#painelSenha h2{
+    margin:0;
+    color:#555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align:center;
+}
+
+#senha{
+    font-size:64px;
+    font-weight:bold;
+    color:#1976D2;
+    margin:20px 0;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 35px;
+}
+
+#consulta,
+#exames,
+#preferencial,
+#retorno {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+    height: 260px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    transition: .25s;
+}
+
+#consulta:hover,
+#exames:hover,
+#preferencial:hover,
+#retorno:hover{
+    transform: translateY(-8px);
+}
+
+
+#consulta h2,
+#exames h2,
+#preferencial h2,
+#retorno h2{
+    margin: 0;
+    font-size: 36px;
+}
+
+#consulta p,
+#exames p,
+#preferencial p,
+#retorno p{
+    color: #666;
+    font-size: 18px;
+}
+
+button{
+    margin-top:20px;
+
+    width:250px;
+    height:60px;
+
+    border:none;
+    border-radius:10px;
+
+    background:#1976D2;
+    color:white;
+
+    font-size:20px;
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.2s;
+}
+
+button:hover{
+    background:#1565C0;
+    transform:scale(1.05);
+}

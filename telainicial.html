@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClinicalMed</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="cabecalho">
+    <h1>Bem-vindo a ClinicalMed!</h1> 
+
+    <div id="painelSenha">
+    <h2>Sua senha</h2>
+    <p id="senha">---</p>
+</div>
+</div>
+
+<div id="container">
+    <div id="consulta">
+        Consulta
+        <button type="button" value="Consulta" id="btnConsulta" name="Consulta" onclick="gerarSenha('Consulta')">Gerar Senha</button>
+    </div>
+
+    <div id="exames">
+        Exames
+        <button type="button" value="Exames" id="btnExames" name="Exames" onclick="gerarSenha('Exames')">Gerar Senha</button>
+    </div>
+
+    <div id="preferencial">
+        Preferencial
+       
+        <button type="button" value="Preferencial" id="btnPreferencial" name="Preferencial" onclick="gerarSenha('Preferencial')">Gerar Senha</button>
+    </div>
+    <div id="retorno">
+        Retorno
+        <button type="button" value="Retorno" id="btnRetorno" name="Retorno" onclick="gerarSenha('Retorno')">Gerar Senha</button>
+    </div>
+
+</div>
+
+
+</body>
+</html>
